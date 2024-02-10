@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./img/lieferung.png"
+    />
+    <title>Pizzarando</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./js/script.js"></script>
+    <script src="./js/html.js"></script>
+  </head>
+
+  <body onload="render()">
+    <div class="header">
+      <div class="h123">
+        <a href="#"><img src="./img/lieferung.png" alt="" /></a>
+        <h1 class="headline">Pizzarando</h1>
+      </div>
+
+      <div>
+        <h2>Pizzeria Napoli - Königstraße 3, Stuttgart</h2>
+      </div>
+
+      <div class ="img-hl" id="img">
+        <a href="#"><img src="./img/deuschland.png" alt="" /></a>
+        <a href="#"><img src="./img/burger-menu (1).png" alt="" /></a>
+      </div>
+    </div>
+
+    <div id="container"class="container">
+      <div class="main">
+        <div class="main-head"></div>
+
+         <h2 class="main-headline">Pizzeria Napoli</h2>
+         <div class="mainhead1">
+          <div class="stars">
+            <img src="./img/star1.svg" alt="" />
+            <img src="./img/star1.svg" alt="" />
+            <img src="./img/star1.svg" alt="" />
+            <img src="./img/star1.svg" alt="" />
+            <img src="./img/star01.svg" alt="" />
+            <h3>(3473 Bewertungen)</h3>
+          </div>
+
+         <div class="stars2">
+          <img src="./img/info.svg" alt="" />
+          <img src="./img/heart0.svg" alt="" />
+         </div>
+        </div>
+
+    <div class="container2">
+      <div>
+        <div class="menu-headline">
+          <a href="#"><img src="./img/lupe.svg" alt="" /></a>
+          <a href="#"><h3>Salate</h3></a>
+          <a href="#"><h3 class="orange">Pizza</h3></a>
+          <a href="#"><h3>Pasta</h3></a>
+          <a href="#"><h3>Al Forno</h3></a>
+          <a href="#"><h3>Fisch</h3></a>
+        </div>
+
+        <div id="resp-basket-btn" class="basket-btn"></div>
+
+        <div id="basket-resp" class="basket-resp-bg d-none">
+          <div class="basket-resp">
+            <div class="headline-rbasket">
+              <h1>Warenkorb</h1>
+              <img src="./img/buchstabe-x (1).png" alt="" onclick="closeRespBasket()">
+            </div>
+            <p id="resp-basket"></p>
+          </div>
+        </div>
+
+        <div id="menu"></div>
+
+      </div>
+
+      <div class="basket " >
+
+        <h2>Warenkorb</h2>
+
+        <div id="basket"></div>
+
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>

@@ -1,0 +1,609 @@
+body {
+  background-color: rgb(238, 236, 209);
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  max-width: 1920px;
+}
+
+
+/* +++++++ custom scrollbar +++++ */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 128, 0);
+  border-radius: 10px;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 173, 0);
+}
+
+/* +++++++ custom scrollbar end +++++ */
+
+/* ##########################head-Ende############################ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(255, 127, 1);
+  height: 80px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+
+.header h2 {
+  margin-top: 32px;
+}
+
+
+#img img {
+  width: 48px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+
+.h123 {
+  display: flex;
+}
+
+
+.h123 img{
+  width: 80px;
+}
+
+
+.headline {
+  margin-top: 21px;
+  margin-left: 10px;
+}
+
+/* ##########################head-Ende############################ */
+
+/* ##########################main############################ */
+
+.container {
+  display: flex;
+}
+
+
+.basket-btn{
+  display: none;
+}
+
+
+.orange{
+  color: rgb(255, 127, 1) ;
+  text-decoration:underline;
+  font-weight:900 ;
+}
+
+
+.main {
+  margin-right: 35%;
+  margin-top: 80px;
+  background-color: rgb(238, 236, 209);
+  height: 100%;
+  flex: 1;
+}
+
+
+.main-headline {
+  margin-left: 20px;
+}
+
+
+.main-head {
+  background-image: url("./img/pizza.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgb(11, 11, 11);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  background-color: rgb(255, 255, 255);
+  height: 190px;
+}
+
+
+.mainhead1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+
+.main-head h2 {
+  margin: 0;
+  margin-left: 8px;
+}
+
+
+.stars {
+  display: flex;
+  fill: bisque;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+
+.stars2 img {
+  border: solid 1px gray;
+}
+
+.stars2 img:hover {
+  cursor: pointer;
+  border: solid 2px black;
+  /* border-radius: 50%; */
+}
+
+.stars h3 {
+  margin: 0;
+  margin-left: 10px;
+}
+
+
+.menu-headline {
+  box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.menu-headline img{
+  width: 30px;
+  margin-top: 20px;
+}
+
+
+.menu-headline a{
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+
+.menu-headline a:hover{
+  text-decoration:underline;
+  color: black;
+}
+
+
+.menu1 {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-left: 16px;
+  background-color: rgb(235, 238, 238);
+  border: 1px solid rgba(95, 95, 95, 0.3);
+  border-radius: 4px;
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.menu1 :hover{
+  cursor: pointer;
+}
+
+
+.hl {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+}
+
+
+.hl img {
+  margin-top: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+
+.hl img:hover {
+  background-color: rgb(238, 236, 209);
+  border-radius: 20%;
+  box-shadow: 0px 0px 4px 3px #959595;
+}
+
+
+.hl1 {
+  display: flex;
+}
+
+/* ##########################main-Ende############################ */
+
+/* ##########################basket############################ */
+
+.basket {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(238, 236, 209);
+  width: 35%;
+  position: fixed;
+  top: 80px;
+  right: 0;
+  height: 100vh;
+  /* border-left: solid 1px gray; */
+  /* box-shadow: -3px 0px 3px 0px rgba(0,0,0,0.3); */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.basket img {
+  width: 20px;
+  height: 20px;
+}
+
+
+a img {
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+.basket h2 {
+  margin-top: 5px;
+}
+
+
+.basket h4 {
+  margin: 5px;
+}
+
+
+.basket-content {
+  background-color:rgb(235, 238, 238) ;
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px gray;
+  border-radius: 4px;
+  align-items: center;
+}
+
+
+.basket-resp-content {
+  background-color: rgb(235, 238, 238);
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px gray;
+  border-radius: 4px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.headline-rbasket{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+
+.headline-rbasket img{
+  text-align: center;
+  margin-top: 12px;
+  height: 24px;
+}
+
+
+.basket-resp h1{
+  text-align: center;
+  flex: 1;
+  margin: 3px;
+}
+
+
+th {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+}
+
+
+tr {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.th {
+  width: 150px;
+}
+
+
+th img:hover{
+  box-shadow: 0px 0px 4px 3px #959595;
+}
+
+
+.th2 {
+  width: 70px;
+}
+
+
+.th3 {
+  width: 20px;
+}
+
+
+.th-r {
+  width: 140px;
+  text-align: start;
+  margin-left: 5px;
+}
+
+
+.th2-r {
+  width: 70px;
+}
+
+
+.th3-r {
+  margin-left: 2px;
+  width: 20px;
+}
+
+
+.calc {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.ca {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+.ca h3{
+  margin: 5px;
+}
+
+
+.d-flex {
+  display: flex;
+}
+
+
+.p-l2{
+  padding-left: 2px;
+}
+
+
+.d-block {
+  display: block;
+}
+
+
+button {
+  cursor: pointer;
+  margin-top: 16px;
+  margin-left: 32px;
+  color: white;
+  background-color: cornflowerblue;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.41);
+}
+
+
+button:hover {
+  box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.61);
+  width: 197px;
+  height: 48px;
+}
+
+
+.basketEmpty {
+  text-align: center;
+  margin-top: 1px;
+  margin-left: 10px;
+}
+
+
+.basketEmpty img {
+  width: 100px;
+  height: 100px;
+}
+
+
+.basket-resp-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.basket-resp img{
+  margin-right: 16px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+.basket-resp {
+  height: auto;
+  width: 95vw;
+  background-color: rgb(238, 236, 209);
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+
+.d-none {
+  display: none;
+}
+
+/* ##########################basket-Ende############################ */
+
+/* ##########################media############################ */
+
+@media (max-width: 1400px) {
+  /* @media screen and (max-width: 1400px) {*/
+  th { 
+    padding-right: 0;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  th {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 970px) {
+  .basket {
+    display: none;
+  }
+
+
+  .main {
+    margin-right: auto;
+  }
+
+  .basket-btn{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .basket-resp {
+    height: auto;
+    width: 65vw;
+    background-color: rgb(238, 236, 209);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+  }
+}
+
+
+@media (max-width: 900px) {
+.header h2 {
+  display: none;
+ }
+}
+
+
+@media (max-width: 675px) {
+  .header h2 {
+    display: none;
+  }
+
+  .menu-headline {
+    font-size: 12px;
+  }
+
+  .menu-headline img{
+    width: 25px;
+    margin-top: 10px;
+  }
+
+  .basket-resp {
+    height: 100vh;
+    width: 90vw;
+    overflow: auto;
+  }
+
+  .hl img {
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+@media (max-width: 420px) {
+  #img {
+    display: none;
+    width: 32px;
+  }
+
+  .stars h3{
+    display: none;
+  }
+
+  a img {
+    width: 15px;
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+
+  .basket-resp-content {
+    margin: 2px;
+  }
+  
+  .basket-resp {
+    height: 90vh;
+    overflow: auto;
+  }
+
+  .th-r {
+    width: 100px;
+    text-align: start;
+    margin-left: 2px;
+  }
+
+  a img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .basket-resp img {
+    margin-right: 5px
+  }
+
+  .hl img {
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+  }
+}
